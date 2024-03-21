@@ -17,7 +17,7 @@ describe('Swiper Gallery Test', function () {
   });
 
   describe('Swiper Gallery Test', function () {
-    it('Checks if next and prev buttons work', function () {
+    it('Checks if next and prev buttons are working', function () {
       cy.visit('http://localhost:3000');
       cy.get('.swiper-button-next').click();
       cy.wait(2000)
